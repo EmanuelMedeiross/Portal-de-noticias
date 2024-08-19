@@ -1,20 +1,21 @@
 /* NAV BAR PRIMARY */
-.navbar-primary {
+#primary {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-.navbar-primary menu, search {
-    display: flex;
-    align-items: center;
-}
+    padding-block: 20px;
 
-.navbar-secondary {
-    border-top: 1px solid ;
-    border-bottom: 1px solid;
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
 }
-.navbar-secondary ul {
+#secondary {
     display: flex;
     justify-content: space-between;
+    border-block: 1px solid var(--stroke-color);
+    padding-block: 14px;
 }

@@ -36,6 +36,8 @@ body {
     width: 1280px;
     margin: auto;
     padding-inline: 32px;
+
+    border: 1px solid white;
 }
 
 a {
