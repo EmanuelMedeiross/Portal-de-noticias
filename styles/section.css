@@ -9,7 +9,7 @@
         border-radius: 4px;
         overflow: hidden;/* Overflow: Significa transbordamento - hidden: escondr/escondido*/
         &::before {
-            content: "";
+            content:" ";
             background: 
             linear-gradient(
                 /*1º - Angulação*/180deg,
@@ -27,6 +27,10 @@
             padding: 24px;
             h2{
                 margin-top: 8px;
+            }
+
+            &:has(.text-lg){
+                padding: 12px;
             }
         }
     }
