@@ -13,3 +13,17 @@
 .gap-16 {
     gap: 16px;
 }
+
+/*Criando classes para aplicar direto na tag. Futuramente, ao fazer uma modificação no valor da classe, modificará todos os elementos que contenham a classe.*/
+.text-2xl {
+    font: var(--h1)
+}
+.text-xl {
+    font: var(--h2)
+}
+.text-lg {
+    font: var(--h3)
+}
+.text-sm {
+    font: var(--text-sm)
+}

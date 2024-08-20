@@ -3,4 +3,31 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .card {
+        position: relative;
+        border-radius: 4px;
+        overflow: hidden;/* Overflow: Significa transbordamento - hidden: escondr/escondido*/
+        &::before {
+            content: "";
+            background: 
+            linear-gradient(
+                /*1º - Angulação*/180deg,
+                /*2º - Intensidade da Cor*/transparent 0%,
+                /*3º - Cor*/#020617 100%);
+
+            position: absolute;
+            inset: 0;
+            top: 50%;
+        }
+
+        figcaption {
+            position: absolute;
+            bottom: 0;
+            padding: 24px;
+            h2{
+                margin-top: 8px;
+            }
+        }
+    }
 }
