@@ -34,6 +34,7 @@ body {
     color: var(--text-color-primary);
     width: 1280px;
     margin: auto;
+    margin-bottom: 80px;
     padding-inline: 32px;
 }
 
